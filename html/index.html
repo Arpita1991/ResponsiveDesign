@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
+<script type="text/javascript" src="../js/myjs.js"></script>
+</head>
+<body>
+<div>
+<ul class="topnav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Contact Us</a></li>
+ 
+  <li class="icon">
+    <a href="javascript:void(0);" onClick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+</div>
+
+<div class="button">
+
+<span id="photogallery">Photo Gallery >></span> &nbsp;&nbsp; <span id="attractionlist">See attractions >></span>
+
+
+</div>
+
+<div id="myhiddendiv">
+<div class="article">
+  <h4>Collingwood Sights & Attractions</h4>
+ <span>Collingwood has more than 50 kilometres of walking, hiking, and cycling trails on a variety of surfaces. Many of these trails are along our beautiful Georgian Bay waterfront, including some of the most stunning beaches and waterfront parks. Don’t miss Sunset Point, Millennium Overlook and Harbourlands Park.
+</span>
+<div class="grow">
+<img src="../img/sunsetcollingwood.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+</div>
+<p><h4>
+Memorial Park Beach
+</h4>
+<span>
+This lovely beach is located on the eastern side of Meaford on Grant Avenue. Offshore are “the Sisters”, large rocks jutting out from the waters of Georgian Bay. Legend has it two sisters swam too far from shore and drowned. Afterward, these rocks mysteriously appeared where the unlucky girls perished.
+<p>
+In spite of the gruesome tale of the Sisters, this park is a lovely place to spend the day. There are 400 metres of shoreline, a picnic area, a children’s playground, miniature golf and clean washrooms. Parking is free.
+</span>
+<p><h4>
+Little River Beach Park
+</h4>
+<span>
+Little River Beach Park is a pebbled beach surrounded by trees near the Town of the Blue Mountains. This beach is up for a Blue Flag designation and has a lifesaving station, washrooms, a children’s playground and parking.
+</span>
+<p></p>
+<p></p>
+<p></p>
+</div>
+ </div>
+ 
+ <div class="mycontainer">
+ <h3>
+ Photo Gallery of Collingwood
+ </h3>
+ 
+ <div id="jssor_1" class="container">
+        <div data-u="slides" class="slidesdiv">
+            <div data-p="112.50">
+                <img data-u="image" src="../img/001.jpg" />
+           </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/002.jpg" />
+            </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/003.jpg" />
+             </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/004.jpg" />
+              </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/005.jpg" />
+              </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/006.jpg" />
+            </div>
+            <div data-p="112.50">
+                <img data-u="image" src="../img/007.jpg" />
+            </div>
+        </div>
+        <div data-u="navigator" class="jssorb01" id="navi">
+            <div data-u="prototype" id="proto"></div>
+        </div>
+        <span data-u="arrowleft" class="jssora02l leftarrow" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r rightarrow" data-autocenter="2"></span>
+    </div>
+ </div>
+<div class="footer">
+<a href="#">Site Map </a><a href="#"> Contact Us </a>
+</div>
+</body>
+</html>
